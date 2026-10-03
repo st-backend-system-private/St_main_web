@@ -69,25 +69,25 @@ export default function Contact() {
             <div className="space-y-4">
               {/* Email */}
               <div className="bg-white p-5 rounded-2xl border border-slate-200/60 shadow-sm flex items-center gap-4 hover:shadow-md transition-shadow">
-                <div className="w-10 h-10 rounded-xl bg-orange-50 flex items-center justify-center text-primary">
+                <div className="w-10 h-10 rounded-xl bg-orange-50 flex items-center justify-center text-primary flex-shrink-0">
                   <Mail size={20} />
                 </div>
-                <div>
+                <div className="min-w-0">
                   <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">
                     Email
                   </p>
                   <a
-                    href="mailto:hello@shatripthi.tech"
-                    className="text-sm font-bold text-slate-900 hover:text-primary transition-colors"
+                    href="mailto:info@shatripthitechnologiespvtltd.in"
+                    className="text-sm font-bold text-slate-900 hover:text-primary transition-colors break-all"
                   >
-                    hello@shatripthi.tech
+                    info@shatripthitechnologiespvtltd.in
                   </a>
                 </div>
               </div>
 
               {/* Phone */}
               <div className="bg-white p-5 rounded-2xl border border-slate-200/60 shadow-sm flex items-center gap-4 hover:shadow-md transition-shadow">
-                <div className="w-10 h-10 rounded-xl bg-orange-50 flex items-center justify-center text-primary">
+                <div className="w-10 h-10 rounded-xl bg-orange-50 flex items-center justify-center text-primary flex-shrink-0">
                   <Phone size={20} />
                 </div>
                 <div>
@@ -95,10 +95,10 @@ export default function Contact() {
                     Phone
                   </p>
                   <a
-                    href="tel:+919830000000"
+                    href="tel:+919083447938"
                     className="text-sm font-bold text-slate-900 hover:text-primary transition-colors"
                   >
-                    +91 98300 00000
+                    +91 90834 47938
                   </a>
                 </div>
               </div>

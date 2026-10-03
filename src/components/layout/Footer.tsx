@@ -38,6 +38,20 @@ export default function Footer() {
             <p className="text-sm max-w-sm text-slate-500">
               Building next-generation software products for urban India, starting with mobility and expanding into hyperlocal platforms.
             </p>
+            <div className="pt-2 flex flex-col gap-1.5 text-xs text-slate-400">
+              <a
+                href="mailto:info@shatripthitechnologiespvtltd.in"
+                className="hover:text-primary transition-colors flex items-center gap-2 break-all"
+              >
+                <span>✉</span> info@shatripthitechnologiespvtltd.in
+              </a>
+              <a
+                href="tel:+919083447938"
+                className="hover:text-primary transition-colors flex items-center gap-2"
+              >
+                <span>📞</span> +91 90834 47938
+              </a>
+            </div>
           </div>
 
           {/* Links */}

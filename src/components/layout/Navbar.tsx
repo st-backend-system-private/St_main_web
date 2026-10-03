@@ -140,6 +140,7 @@ export default function Navbar() {
                       alt="RollORide Logo"
                       width={22}
                       height={22}
+                      style={{ width: "auto", height: "auto" }}
                       className="object-contain"
                     />
                   </div>
