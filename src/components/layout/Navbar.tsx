@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { Menu, X, Bike } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Navbar() {
@@ -78,10 +78,19 @@ export default function Navbar() {
           <div className="hidden md:block">
             <a
               href="#products"
-              className="btn btn-primary btn-sm flex items-center gap-2 text-white font-semibold rounded-full border-none shadow-[0_4px_14px_0_rgba(249,115,22,0.4)] hover:shadow-[0_4px_20px_0_rgba(249,115,22,0.65)] hover:scale-105 transition-all duration-300"
+              className="btn btn-primary btn-sm flex items-center gap-2 text-white font-semibold rounded-full border-none shadow-[0_4px_14px_0_rgba(249,115,22,0.4)] hover:shadow-[0_4px_20px_0_rgba(249,115,22,0.65)] hover:scale-105 transition-all duration-300 pl-1.5 pr-4 py-1"
             >
-              <Bike size={16} className="animate-pulse" />
-              RideX
+              <div className="relative w-6 h-6 rounded-full bg-white flex items-center justify-center overflow-hidden p-0.5 shadow-sm flex-shrink-0">
+                <Image
+                  src="/RollORide.png"
+                  alt="RollORide Logo"
+                  width={20}
+                  height={20}
+                  style={{"width":"auto","height":"auto"}}
+                  className="object-contain"
+                />
+              </div>
+              RollORide
             </a>
           </div>
 
@@ -123,10 +132,18 @@ export default function Navbar() {
                 <a
                   href="#products"
                   onClick={() => setIsOpen(false)}
-                  className="w-full btn btn-primary flex items-center justify-center gap-2 text-white font-semibold rounded-full border-none shadow-[0_4px_14px_0_rgba(249,115,22,0.4)] hover:shadow-[0_4px_20px_0_rgba(249,115,22,0.65)] transition-all duration-300"
+                  className="w-full btn btn-primary flex items-center justify-center gap-2.5 text-white font-semibold rounded-full border-none shadow-[0_4px_14px_0_rgba(249,115,22,0.4)] hover:shadow-[0_4px_20px_0_rgba(249,115,22,0.65)] transition-all duration-300 py-2.5"
                 >
-                  <Bike size={18} />
-                  RideX App
+                  <div className="relative w-7 h-7 rounded-full bg-white flex items-center justify-center overflow-hidden p-0.5 shadow-sm flex-shrink-0">
+                    <Image
+                      src="/RollORide.png"
+                      alt="RollORide Logo"
+                      width={22}
+                      height={22}
+                      className="object-contain"
+                    />
+                  </div>
+                  RollORide App
                 </a>
               </div>
             </div>

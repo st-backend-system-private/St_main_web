@@ -43,14 +43,14 @@ export default function Products() {
             Our Products
           </span>
           <h2 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
-            What We're Building
+            What We&apos;re Building
           </h2>
           <p className="text-slate-500 font-medium text-sm sm:text-base leading-relaxed">
             Our product roadmap begins with urban mobility and expands into a full ecosystem of software services.
           </p>
         </div>
 
-        {/* Featured RideX Product Banner */}
+        {/* Featured RollORide Product Banner */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -63,18 +63,18 @@ export default function Products() {
             {/* Logo and Badge */}
             <div className="flex items-center justify-between flex-wrap gap-4">
               <div className="flex items-center gap-3">
-                <div className="relative w-10 h-10 rounded-xl overflow-hidden shadow-inner flex-shrink-0">
+                <div className="relative w-12 h-12 rounded-xl overflow-hidden shadow-inner flex-shrink-0 bg-white p-1">
                   <Image
-                    src="/Ridex logo.jpeg"
-                    alt="RideX logo"
+                    src="/RollORide.png"
+                    alt="RollORide logo"
                     fill
-                    sizes="40px"
-                    className="object-cover"
+                    sizes="48px"
+                    className="object-contain"
                   />
                 </div>
                 <div>
                   <h3 className="font-extrabold text-white text-base leading-none">
-                    RideX
+                    RollORide
                   </h3>
                   <span className="text-[10px] text-slate-400 font-semibold mt-0.5 block">
                     by Shatripthi Technologies
@@ -89,10 +89,10 @@ export default function Products() {
             {/* Product description */}
             <div className="space-y-4 my-6 lg:my-0">
               <h4 className="text-2xl sm:text-3xl font-black text-white leading-tight">
-                Kolkata's Smartest Ride & Delivery Platform
+                Kolkata&apos;s Smartest Ride & Delivery Platform
               </h4>
               <p className="text-slate-400 text-sm sm:text-base leading-relaxed font-semibold">
-                RideX is an on-demand bike taxi and goods transport service built specifically for Kolkata's streets. Book a ride in seconds or send packages across the city — fast, affordable, and safe.
+                RollORide is an on-demand bike taxi and goods transport service built specifically for Kolkata&apos;s streets. Book a ride in seconds or send packages across the city — fast, affordable, and safe.
               </p>
             </div>
 
@@ -127,7 +127,7 @@ export default function Products() {
             {/* Button */}
             <div className="pt-6">
               <button className="btn btn-primary px-8 text-white rounded-full border-none shadow-[0_6px_20px_rgba(249,115,22,0.45)] hover:shadow-[0_6px_25px_rgba(249,115,22,0.65)] hover:scale-105 transition-all duration-300">
-                Explore RideX
+                Explore RollORide
                 <ArrowUpRight size={16} />
               </button>
             </div>
@@ -137,7 +137,7 @@ export default function Products() {
           <div className="lg:col-span-5 relative min-h-[320px] lg:min-h-full">
             <Image
               src="/ridex_rider_showcase.jpg"
-              alt="RideX Electric Bike Taxi Rider in Kolkata"
+              alt="RollORide Electric Bike Taxi Rider in Kolkata"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"

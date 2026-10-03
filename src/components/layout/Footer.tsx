@@ -55,7 +55,7 @@ export default function Footer() {
               href="#products"
               className="text-primary hover:underline transition-colors"
             >
-              RideX
+              RollORide
             </a>
           </div>
         </div>

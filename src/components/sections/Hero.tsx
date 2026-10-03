@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { ArrowRight, MapPin, Bike, Award } from "lucide-react";
+import { ArrowRight, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function Hero() {
@@ -114,25 +114,25 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* RideX launchpad overlay card */}
+            {/* RollORide launchpad overlay card */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6, type: "spring", stiffness: 100 }}
               className="absolute -bottom-8 -left-6 sm:-left-10 bg-white p-4 rounded-2xl shadow-xl border border-slate-100 flex items-center gap-3.5 max-w-xs transition-transform duration-300 hover:scale-102"
             >
-              <div className="relative w-12 h-12 rounded-xl overflow-hidden shadow-md shadow-orange-500/10 border border-slate-100 flex-shrink-0">
+              <div className="relative w-12 h-12 rounded-xl overflow-hidden shadow-md shadow-orange-500/10 border border-slate-100 flex-shrink-0 bg-white p-1">
                 <Image
-                  src="/Ridex logo.jpeg"
-                  alt="RideX logo"
+                  src="/RollORide.png"
+                  alt="RollORide logo"
                   fill
                   sizes="48px"
-                  className="object-cover"
+                  className="object-contain"
                 />
               </div>
               <div className="text-left">
                 <div className="flex items-center gap-1.5">
-                  <h4 className="font-bold text-sm text-slate-950">RideX</h4>
+                  <h4 className="font-bold text-sm text-slate-950">RollORide</h4>
                   <span className="text-[10px] font-bold text-orange-600 bg-orange-50 px-1.5 py-0.5 rounded-md border border-orange-100">
                     Kolkata
                   </span>

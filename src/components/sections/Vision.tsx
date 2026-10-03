@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 export default function Vision() {
   const milestones = [
-    { year: "2025", desc: "RideX Kolkata Launch" },
+    { year: "2025", desc: "RollORide Kolkata Launch" },
     { year: "2026", desc: "Multi-city Expansion" },
     { year: "2027", desc: "New Product Lines" },
     { year: "∞", desc: "Long-term Vision" },
@@ -37,13 +37,13 @@ export default function Vision() {
                 Our Vision
               </span>
               <h2 className="text-3xl sm:text-4xl font-black tracking-tight leading-tight">
-                Building India's Next <br className="hidden sm:inline" /> Great Tech Company
+                Building India&apos;s Next <br className="hidden sm:inline" /> Great Tech Company
               </h2>
               <p className="text-slate-400 text-sm sm:text-base leading-relaxed font-semibold">
-                We are starting small, but thinking big. RideX is our first step toward building a comprehensive technology ecosystem that serves millions of Indians — beginning with Kolkata and expanding city by city.
+                We are starting small, but thinking big. RollORide is our first step toward building a comprehensive technology ecosystem that serves millions of Indians — beginning with Kolkata and expanding city by city.
               </p>
               <p className="text-slate-400 text-sm sm:text-base leading-relaxed font-semibold">
-                Our long-term vision is to become one of India's leading software product companies, known for products that are deeply useful, beautifully designed, and engineered for scale.
+                Our long-term vision is to become one of India&apos;s leading software product companies, known for products that are deeply useful, beautifully designed, and engineered for scale.
               </p>
             </div>
 

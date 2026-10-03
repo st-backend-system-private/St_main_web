@@ -48,10 +48,10 @@ export default function Contact() {
             Get In Touch
           </span>
           <h2 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
-            Let's Build Something Together
+            Let&apos;s Build Something Together
           </h2>
           <p className="text-slate-500 font-medium text-sm sm:text-base leading-relaxed">
-            Whether you're a potential partner, investor, or a talented individual who wants to join us — we'd love to hear from you.
+            Whether you&apos;re a potential partner, investor, or a talented individual who wants to join us — we&apos;d love to hear from you.
           </p>
         </div>
 

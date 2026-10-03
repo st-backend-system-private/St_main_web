@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Cpu, Globe, Users } from "lucide-react";
+import { Cpu, Globe } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function About() {
@@ -46,7 +46,7 @@ export default function About() {
 
             <div className="space-y-6 text-slate-600 font-medium text-sm sm:text-base leading-relaxed">
               <p>
-                Shatripthi Technologies Private Limited is a technology company incorporated in Kolkata, India. We are in our early phase — laser-focused on building our first product, RideX, while laying the groundwork for a broad portfolio of software services.
+                Shatripthi Technologies Private Limited is a technology company incorporated in Kolkata, India. We are in our early phase — laser-focused on building our first product, RollORide, while laying the groundwork for a broad portfolio of software services.
               </p>
               <p>
                 Our founding team combines product thinking with technical depth. We believe that great technology companies are built on discipline, speed, and genuine care for the people who use their products.
