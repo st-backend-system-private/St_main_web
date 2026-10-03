@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "eslint"
   },
+  "allowScripts": {
+    "unrs-resolver": true
+  },
   "dependencies": {
     "daisyui": "^5.7.19",
     "framer-motion": "^13.1.0",

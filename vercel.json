@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/((?!api/|_next/|_static/|favicon.ico|.*\\..*).*)",
+      "destination": "/"
+    }
+  ]
+}
