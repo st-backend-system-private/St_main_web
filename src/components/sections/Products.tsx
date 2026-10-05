@@ -136,8 +136,8 @@ export default function Products() {
           {/* Right Column (Visual) */}
           <div className="lg:col-span-5 relative min-h-[320px] lg:min-h-full">
             <Image
-              src="/ridex_rider_showcase.jpg"
-              alt="RollORide Electric Bike Taxi Rider in Kolkata"
+              src="/rolloride_rider_showcase.jpg"
+              alt="RollORide Bike Taxi Rider on Red Bajaj Pulsar N160 with Pillion in Kolkata"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
